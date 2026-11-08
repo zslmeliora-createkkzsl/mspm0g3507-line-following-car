@@ -1,0 +1,25 @@
+# CCS / Eclipse 构建产物
+Debug/
+Release/
+*.o
+*.obj
+*.d
+*.out
+*.map
+*.launch
+.launches/
+*.log
+
+# 本机配置
+*.user
+.ccsproject.user
+.clangd
+.settings/org.eclipse.core.resources.prefs
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 本地辅助脚本（不提交）
+push_to_github.bat
